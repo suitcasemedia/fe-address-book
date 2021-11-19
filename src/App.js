@@ -22,8 +22,6 @@ function App() {
          setBusy(false);
       })
       .catch((error) => {      
-        
-        console.log("thisis the error",error)
         setError(error);
         setBusy(false);
       });     
