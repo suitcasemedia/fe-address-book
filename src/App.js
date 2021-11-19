@@ -22,6 +22,7 @@ function App() {
          setBusy(false);
       })
       .catch((error) => {      
+
         setError(error);
         setBusy(false);
       });     

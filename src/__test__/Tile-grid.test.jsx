@@ -23,7 +23,7 @@ describe('The tile grid displays loading message when loading', () => {
   });
  
   it('it displays the loading message', () => {
-    const loadingMessage = 'loading data...';
+    const loadingMessage = '<h2>loading data...</h2>';
     expect(wrapper.find('h2').contains(loadingMessage)).toBe(true);
   });
 
@@ -42,7 +42,7 @@ describe('The tile grid displays the tile container when there is no error and i
   });
  
   it('it displays the tile grid container', () => {
-    expect(wrapper.find('.tile-grid__container')).toHaveLengthOf(1);
+    expect(wrapper.find('.tile-grid__container')).toHaveLength(1);
   });
 
 });
