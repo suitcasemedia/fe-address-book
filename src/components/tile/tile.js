@@ -19,7 +19,7 @@ const Tile = ({ author, date, heading, image, link, summary }) => {
             <div  className={wrapperClass}>
                 <div className={imageContainerClass}>
                     <picture>
-                        <img src={image.url} className={imageClass} alt={image.description}/>
+                         <img src={image.url} className={imageClass} alt={image.description}/> 
                     </picture>
                 </div>
                 <div className={headingContainerClass}>

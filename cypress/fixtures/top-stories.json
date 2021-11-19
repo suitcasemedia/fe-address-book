@@ -1,0 +1,169 @@
+{
+  "title": "Top Stories",
+  "items": [
+    {
+      "title": "Cricket bosses meet in wake of Rafiq testimony on institutional racism",
+      "link": "news/2021-11-19/ecb-boss-under-pressure-as-crickets-governing-body-meet-amid-ongoing-crisis",
+      "summary": "Leaders in the sport are holding a game-wide meeting at The Oval to discuss the racism scandal engulfing cricket in the wake of Azeem Rafiq's damning testimony.",
+      "image": {
+        "description": "",
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/3nwJdAwWtBWwBfN3y6Trs5/aae2befe0f2e46702c0b788d070bb0a7/AzeemFull.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      "bulletLinks": [
+        {
+          "link": "news/2021-11-18/all-racism-is-despicable-pm-says-government-action-needed-on-racism-in-sport",
+          "label": "'All racism is despicable': PM says government action needed on racism in sport",
+          "externalUrl": false
+        }
+      ],
+      "author": null,
+      "video": null,
+      "externalUrl": false,
+      "displayDate": "2021-11-19T09:26:36.192Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": null
+    },
+    {
+      "title": "England cricketer Alex Hales sorry for 'reckless' blackface",
+      "link": "news/2021-11-19/former-england-cricketer-alex-hales-sorry-for-reckless-blackface",
+      "summary": "The cricketer apologised for painting his face black to attend a fancy dress party as rapper Tupac Shakur in 2009.",
+      "image": {
+        "description": null,
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/316436_header/4af0565c77b28bba1a74c74ed01fb24c/importedImage316436_header",
+        "width": 941,
+        "height": 529
+      },
+      "bulletLinks": [],
+      "author": null,
+      "video": null,
+      "externalUrl": false,
+      "displayDate": "2021-11-19T09:40:53.441Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": null
+    },
+    {
+      "title": "'I've let them down': Australia cricket captain quits over sexting scandal",
+      "link": "news/2021-11-19/ive-let-them-down-australia-cricket-captain-quits-over-sexting-scandal",
+      "summary": "Tim Paine asked for the  \"understanding and forgiveness\" of his team as he resigned as captain just three weeks before the start of the Ashes series.",
+      "image": {
+        "description": "",
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/1Rhio5aDshWh0fi9Z354dY/be0cd9a4060cd6912b77009aa2c0d29c/PaineCaptain.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      "bulletLinks": [],
+      "author": null,
+      "video": {
+        "id": 6282734504001,
+        "type": "Brightcove",
+        "poster": {
+          "description": null,
+          "url": "https://images.ctfassets.net/pjshm78m9jt4/1Rhio5aDshWh0fi9Z354dY/be0cd9a4060cd6912b77009aa2c0d29c/PaineCaptain.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        "guidance": "",
+        "isRegionalised": null,
+        "playerId": "B1J9ApOVZ",
+        "accountId": 2821697655001,
+        "policyKey": "BCpkADawqM2R-VmMl3ofhChG1cw4Zk5f_TS_XHyFUHGU41vfe1RkSLTmQ7spfm8o66Q9Pu4PKglYRYpZ9qZ7XnyGKchOXH99fp3E8-EHGzVytr6DpTtuEGceafqNKPdAhgLWK5hhwoAzPhiy"
+      },
+      "externalUrl": false,
+      "displayDate": "2021-11-19T09:18:50.381Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": "video"
+    },
+    {
+      "title": "Indian PM backs down on agriculture laws after farmers protest",
+      "link": "news/2021-11-19/indian-pm-backs-down-on-agriculture-laws-after-farmers-protest",
+      "summary": "Tens of thousands of farmers protested the laws, occupying the outskirts of Delhi and camping out for nearly a year, through a harsh winter and a Covid surge.",
+      "image": {
+        "description": "",
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/41up9sLoExChWeMMsBqqie/7240534ef5e559e9c7818d6416999fc8/AP_21277294744070.jpg",
+        "width": 4741,
+        "height": 2666
+      },
+      "bulletLinks": [],
+      "author": null,
+      "video": null,
+      "externalUrl": false,
+      "displayDate": "2021-11-19T09:05:08.144Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": null
+    },
+    {
+      "title": "Covid: Pandemic plans 'not adequate' and 'not fully implemented'",
+      "link": "news/2021-11-18/government-not-fully-prepared-for-wide-ranging-impacts-of-covid-report-finds",
+      "summary": "A lack of planning, failure to implement simulation exercises, and resources spent on Brexit all impacted the government's pandemic response, a report found.",
+      "image": {
+        "description": "",
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/320R5d7jM0vikssGUqXDvk/335a76f8d0c18aeb034be3b587f67708/clapss.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      "bulletLinks": [
+        {
+          "link": "news/2021-11-13/should-we-be-worried-about-christmas-amid-europe-covid-wave-what-experts-say",
+          "label": "Should we be worried about Christmas amid Europe Covid wave? What experts say",
+          "externalUrl": false
+        },
+        {
+          "link": "news/2021-11-18/covid-19-case-rates-among-schoolchildren-in-england-rise-sharply",
+          "label": "Covid-19 case rates among schoolchildren in England rise sharply ",
+          "externalUrl": false
+        }
+      ],
+      "author": null,
+      "video": null,
+      "externalUrl": false,
+      "displayDate": "2021-11-19T06:45:45.954Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": null
+    },
+    {
+      "title": "Scrolling through playlists while driving to be banned",
+      "link": "news/2021-11-18/drivers-to-be-banned-from-scrolling-through-playlists-while-holding-phones",
+      "summary": "From next year drivers will not be allowed to take photos or videos, scroll through playlists or play games on their phones when driving.",
+      "image": {
+        "description": "",
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/2BWLFKU9Fs3rM4TdEQHLIr/7be33bf1e7ec1c556296addd88e58ef3/driving_phone.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      "bulletLinks": [],
+      "author": null,
+      "video": null,
+      "externalUrl": false,
+      "displayDate": "2021-11-19T07:23:08.342Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": null
+    },
+    {
+      "title": "William happy not to be butt of jokes at Royal Variety Performance",
+      "link": "news/2021-11-18/william-happy-to-avoid-being-target-of-jokes-during-royal-variety-performance",
+      "summary": "William and Kate watched stage stars, musicians and comics, including Josh Widdicombe, Judi Love and Alan Carr, at the Royal Albert Hall.",
+      "image": {
+        "description": "The Duke and Duchess of Cambridge after watching the Royal Variety Performance at the Royal Albert Hall, London. Picture date: Thursday November 18, 2021.",
+        "url": "https://images.ctfassets.net/pjshm78m9jt4/6DrJaOc7bHKvCyLBuUADpk/65db3686c58cacebb77a77480e5480b3/2.63810766.jpg",
+        "width": 2745,
+        "height": 1544
+      },
+      "bulletLinks": [],
+      "author": null,
+      "video": null,
+      "externalUrl": false,
+      "displayDate": "2021-11-19T07:57:37.254Z",
+      "label": null,
+      "tileType": null,
+      "mediaIcon": null
+    }
+  ]
+}

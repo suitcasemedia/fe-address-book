@@ -3,27 +3,56 @@ import './App.scss';
 import TileGrid from './components/tile-grid/tile-grid'
 
 function App() {
-    const [tiles, setTiles] = useState({})
 
+  const [tiles, setTiles] = useState({})
+  const [isBusy, setBusy] = useState(true)
+  const [errorMsg, setError] = useState("")
   useEffect(() => {
-    fetch('https://api-news.prd.shows.itv.com/discovery/national/top-stories')
-        .then(res => res.json())
-        .then(response => setTiles(response));
+    setBusy(true)
+     fetch('https://api-news.prd.shows.itv.com/discovery/national/top-stories').then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Something went wrong').toString();
+        }
+      })
+      .then((responseJson) => {
+         setTiles(responseJson) ;
+         
+         setBusy(false);
+      })
+      .catch((error) => {      
+        
+        console.log("thisis the error",error)
+        setError(error);
+        setBusy(false);
+      });     
   }, []);
+  
+  
+ 
 
   return (
     <div className="App">
       <header className="App-header">
-       ITV News
+        ITV News
       </header>
       <TileGrid
-        items={tiles.items}
-        heading={tiles.title}
-        showDate
-        showSummary
-      />
+          errorMsg={errorMsg}
+          isBusy={isBusy}
+          items={tiles.items }
+          heading={tiles.title}
+          showDate
+          showSummary
+        />
+       
+      
     </div>
   );
+
+
 }
+ 
+
 
 export default App;
