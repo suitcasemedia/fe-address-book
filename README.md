@@ -7,11 +7,10 @@ Node.js engine recommended:
 node v 12.x
 npm v 6.x
 
-### The tasks
-
-1. Code review: Comment on the pull request offering solutions and suggestions to improve the codebase.
-We have introduced a couple of errors to the application code that will stop the application running properly. Using the tools available to you find and correct the problems.
-2. Add tests: Commit unit tests to the pull request to ensure the code works the way you expect.
+### API Key
+I have removed stored the api key for the address api in a .env variable just because its good practice
+### Tests
+npm run cypress
 
 ### Setup
 
@@ -28,5 +27,3 @@ npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.

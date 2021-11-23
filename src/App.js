@@ -1,57 +1,44 @@
-import React, { useEffect, useState } from 'react';
-import './App.scss';
-import TileGrid from './components/tile-grid/tile-grid'
+import React from 'react';
+import AddressessAndForm  from './components/AddressessAndForm ';
+//import DisplayAddressess from './components/DisplayAddesses';
+import Header from './components/Header';
+import styled from 'styled-components';
 
-function App() {
 
-  const [tiles, setTiles] = useState({})
-  const [isBusy, setBusy] = useState(true)
-  const [errorMsg, setError] = useState("")
-  useEffect(() => {
-    setBusy(true)
-     fetch('https://api-news.prd.shows.itv.com/discovery/national/top-stories').then((response) => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          throw new Error('Something went wrong').toString();
-        }
-      })
-      .then((responseJson) => {
-         setTiles(responseJson) ;
-         
-         setBusy(false);
-      })
-      .catch((error) => {      
-
-        setError(error);
-        setBusy(false);
-      });     
-  }, []);
-  
-  
+const AddressMod = styled.div`
+margin: 0px auto 0px auto;
+width: 100%;
+background: #ffeded;
+padding: 50px 0px;
+color:#555;
+h1{
  
+  text-align:center
+}
+`
+
+function useToggle(initialValue = true) {
+  const [value, setValue] = React.useState(initialValue);
+  const toggle = React.useCallback(() => {
+    setValue(v => !v);
+
+  }, []);
+  return [value, toggle];
+}
+
+export default function App() {
+
+  const [mainView, toggleMainView] = useToggle()
 
   return (
-    <div className="App">
-      <header className="App-header">
-        ITV News
-      </header>
-      <TileGrid
-          errorMsg={errorMsg}
-          isBusy={isBusy}
-          items={tiles.items }
-          heading={tiles.title}
-          showDate
-          showSummary
-        />
-       
-      
-    </div>
+    <>
+      <Header mainView={mainView} toggleMainView={toggleMainView} />
+      <AddressMod>
+        <h1>Address Book</h1>
+        <AddressessAndForm mainView={mainView} toggleMainView={toggleMainView} />
+      </AddressMod>
+
+
+    </>
   );
-
-
 }
- 
-
-
-export default App;
